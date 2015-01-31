@@ -1,0 +1,23 @@
+{
+  "name": "rfb-key",
+  "version": "0.0.1",
+  "description": "Sends a single keypress to a VNC server",
+  "main": "rfb-key.js",
+  "bin": {
+    "rfb-key": "./rfb-key.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vincent99/rfb-key"
+  },
+  "author": "Vincent Fiduccia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vincent99/rfb-key/issues"
+  },
+  "homepage": "https://github.com/vincent99/rfb-key",
+  "dependencies": {
+    "minimist": "*",
+    "rfb2": "*"
+  }
+}
